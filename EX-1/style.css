@@ -2,3 +2,51 @@ body {
     background: grey;
     font-family: sans-serif;
 }
+
+.btn {
+    border-radius: 30px;
+    border: 1px solid white;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.btngrn {
+    background-color: darkgreen;
+    color: white;
+}
+.btngrn:hover {
+    background-color: white;
+    color: darkgreen;
+    border: 1px solid darkgreen;
+
+}
+
+.btnylw {
+    background-color: darkorange;
+    color: white;
+}
+.btnylw:hover {
+    background-color: white;
+    color: darkorange;
+    border: 1px solid darkorange;
+
+}
+
+.btnprp {
+    background-color: purple;
+    color: white;
+}
+.btnprp:hover {
+    background-color: white;
+    color: purple;
+    border: 1px solid purple;
+
+}
+
+div {
+    border-radius: 10px;
+    margin: 0px 100px 30px 100px;
+    padding: 20px 0 20px 10px;
+    background-color: white;
+}
