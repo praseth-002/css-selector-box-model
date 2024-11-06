@@ -3,7 +3,7 @@ body {
     font-family: sans-serif;
 }
 
-.btn {
+button {
     border-radius: 30px;
     border: 1px solid white;
     text-decoration: none;
