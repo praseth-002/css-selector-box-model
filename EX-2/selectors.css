@@ -18,7 +18,35 @@ DO NOT ALTER THE EXISTING HTML TO DO THIS.  WRITE ONLY CSS!*/
 
 /* Give everything with the class 'hello' a white background*/
 
+body {
+    background-color: #bdc3c7;
+}
 
+h1 {
+    color: #9b59b6;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+h2 {
+    color: orange;
+}
+
+li {
+    color: rgb(0, 140, 255);
+}
+
+p {
+    background-color: yellow;
+}
+
+input {
+    border: 3px solid red;
+}
+
+.hello {
+    background-color: white;
+}
 
 
 /* BONUS CHALLENGES */
@@ -37,4 +65,30 @@ DO NOT ALTER THE EXISTING HTML TO DO THIS.  WRITE ONLY CSS!*/
 /* Make the first letter of the element with id 'special' green and 100px font size(font-size: 100)*/
 
 /* Make the <h1> element's color change to blue when hovered over */
+
+div p {
+    font-size: 25px;
+}
+
+input[type=text] {
+    background-color: grey;
+}
+
+label {
+    text-transform: uppercase;
+}
+
+input[type=checkbox] {
+    margin-left: 50px;
+}
+
+#special {
+    color: green;
+    font-size: 100px;
+}
+
+h1:hover {
+    color: blue;
+}
+
 
