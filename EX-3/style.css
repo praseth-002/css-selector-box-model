@@ -1,1 +1,17 @@
 /* TODO */
+button {
+    color: white;
+    border: solid 2px;
+    border-radius: 0.65em;
+    background-color: #fa83cd;
+    border-color: #d872b3;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    padding: 0.25em 0.75em;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #d872b3;
+    border-color: #6e3659;
+}
